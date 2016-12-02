@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<communities title="Redwood Properties" author="Ryan Design">
+
+
+    <item icontype="grey">
+        <title>Liberty Village Animal Hospital</title>
+        <image>images/Liberty-Village-logo.png</image>
+        <address><![CDATA[171 East Liberty St. Unit #120]]></address>
+        <googleaddress><![CDATA[43.637707,-79.418746]]></googleaddress>
+        <phone></phone>
+        <website></website>
+        <link><![CDATA[#contact]]></link>
+    </item>
+
+ <!--   <item icontype="grey">
+        <title>Upper Glen Abbey West</title>
+        <image>images/upperglenabbey-sm.jpg</image>
+        <address><![CDATA[Upper Glen Abbey West]]></address>
+        <googleaddress><![CDATA[43.4810755109095, -79.7171401977539]]></googleaddress>
+        <phone></phone>
+        <website>communities/upperglenabby/index.php</website>
+        <link></link>
+    </item>-->
+
+  
+
+</communities>

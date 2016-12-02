@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    
+	<style type="text/css">
+        html { height: 100% }
+        body { height: 100%; margin: 0; padding: 0 }
+        #map-canvas { height: 100% }
+        .infobox-wrapper {
+            display:none;
+        }
+        .infobox {
+            border: 1px solid grey; 
+            margin-top: 8px; 
+            background: white; 
+            padding: 5px;
+            -webkit-box-shadow: 2px 2px 1px 1px #ABABAB;
+            box-shadow: 2px 2px 1px 1px #ABABAB;
+        }
+        .infobox .innerlogo {
+            width:130px;
+            float:left;
+            padding-right: 10px;
+            padding-left: 5px;
+        }
+        .infobox a {
+            padding: 5px 10px;
+            background-color: #00498E;
+            margin-right: 10px;
+            text-align: center;
+            color: white;
+			text-decoration: none;
+        }
+        .infobox a:hover {
+            background-color: #00aae3;
+        }
+    </style>
+
+    <script type="text/javascript"  
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARnj0QDwWrZQAwqcKGVRUA8BJ9sA9nkyc&sensor=false"> 
+    </script>
+    <script type="text/javascript"  src="js/infobox.js"> </script>
+    <script type="text/javascript"  src="js/scripts.js"> </script>
+  </head>
+  <body>
+    <div id="map-canvas"/></div>
+  </body>
+</html>
